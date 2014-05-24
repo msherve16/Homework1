@@ -25,28 +25,28 @@ void ex02()
 	cout << " Enter number of shares: " << endl;
 	cin >> numberOfShares;
 	if (numberOfShares < 100)
-	{cout << "Number of Shares is less than 100." << endl;}
+		{cout << "Number of Shares is less than 100." << endl;}
 	else 
-	{cout << "Number of Shares is not less than 100." << endl;}
-
+		{cout << "Number of Shares is not less than 100." << endl;}
+	
 	if (x >= y)
-	{ cout << x << " is greater than or equal to " << y << endl;}
+		{ cout << x << " is greater than or equal to " << y << endl;}
 	else
-	{cout << x << "is not greater than " << y << endl;}
+		{cout << x << "is not greater than " << y << endl;}
 	
 	cout << " Please enter Box width: " << endl;
 	cin >> boxWidth;
 	cout << " Please enter Book width: " << endl;
 	cin >> bookWidth;
 	if (boxWidth% bookWidth == 0)
-	{cout << " Box width is divisible by Book width." << endl;}
-
+		{cout << " Box width is divisible by Book width." << endl;}
+		
 	cout << "Shelf life of chocolates: " << endl;
 	cin >> shelfLife;
 	cout << "Temperature: " << endl;
 	cin >> temperature;
 	if (temperature > 90)
-	{newShelfLife == (shelfLife - 4);}
+		{newShelfLife == (shelfLife - 4);}
 
 }
 
@@ -63,9 +63,9 @@ void ex03()
 	cout << "Please enter y/n: " << endl;
 	cin >> response;
 	if (response = 'y')
-	{cout << "yes" << endl;}
+		{cout << "yes" << endl;}
 	else if (response = 'n'}
-	{cout << "no" << endl;
+		{cout << "no" << endl;
 
 	cout << "Mailing Address: " << endl;
 	cin >> mailingAddress;
@@ -75,15 +75,36 @@ void ex03()
 void ex04
 {
 	int num;
+	int y=num;
+	int x;
 	do{
-	cout << " Enter a number between one and ten: " << endl;
-	cin << num;
+		cout << " Enter a number between one and ten: " << endl;
+		cin << num;
 	} while (num <1 || num > 10)
+	int 
 	do{
-	cout << "* ";
-	} while ( y>= 1 and y<= num)
+	
+	}
+	do{
+		cout << "* ";
+	} while ( y>= 1 && y<= num)
+	
+	
+	for (x=1; x <=20; x++)
+	{
+	sum = 2*x;
+	cout << sum << " ";
+	}
+	partF ();
 }
 
+int partF()
+ {
+ int x = rand() % 100;
+ int y = rand() % 100;
+ int add = x+y;
+ cout << add;
+ }
 
 int main ()
 {
