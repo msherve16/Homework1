@@ -100,16 +100,39 @@ void ex04
 
 int partF()
  {
- int x = rand() % 100;
- int y = rand() % 100;
- int add = x+y;
- cout << add;
+	int x = rand() % 100;
+	int y = rand() % 100;
+ 	int add = x+y;
+ 	cout << add;
  }
+int partG(int n)
+{
+	int sum =0;
+	for (int i = 1; i<=n; i ++)
+		{sum += i;
+		return sum;}
+}
 
+void ex(05)
+{
+	int val = 5;
+	cont int m = 5;
+	int values [m];
+	while (val >= 0)
+	{ 
+		cout << "Please enter an integer: " << endl;
+		cin >> m;
+		val --;
+	}
+	int result = 0;
+	for (int n = 0; n < m; n++)
+		{result += values[n];}
+}
 int main ()
 {
 	ex02();
 	ex03();
 	ex04();
+	ex05();
 		return 0;
 }
