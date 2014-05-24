@@ -105,6 +105,7 @@ int partF()
  	int add = x+y;
  	cout << add;
  }
+ 
 int partG(int n)
 {
 	int sum =0;
@@ -128,6 +129,7 @@ void ex(05)
 	for (int n = 0; n < m; n++)
 		{result += values[n];}
 }
+
 int main ()
 {
 	ex02();
