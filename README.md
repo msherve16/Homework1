@@ -1,4 +1,4 @@
-Homework1
+									Homework1
 =========
 //////////////////////
 // Morgan Sherve
@@ -74,7 +74,14 @@ void ex03()
 
 void ex04
 {
-
+	int num;
+	do{
+	cout << " Enter a number between one and ten: " << endl;
+	cin << num;
+	} while (num <1 || num > 10)
+	do{
+	cout << "* ";
+	} while ( y>= 1 and y<= num)
 }
 
 
